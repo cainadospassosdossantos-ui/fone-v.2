@@ -1,0 +1,281 @@
+{
+  "project_name": "FoneFine — ERP para Escola de Música",
+  "archetype": "THE PERFORMANCE PRO / HIGH-PRECISION AUDIO ADMIN",
+  "locale": "pt-BR",
+  "theme_strategy": "dark-dominant professional administrative system with high-contrast amber/yellow brand punch (FoneFine signature #F59E0B / #FBBF24 with deep carbon #0D0F12 and rich dark card surfaces #15181E)",
+  "colors": {
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#0B0D11",
+        "on_bg": "#F3F4F6",
+        "on_bg_muted": "#9CA3AF",
+        "roles": {
+          "link": "#FBBF24",
+          "error": "#EF4444",
+          "success": "#10B981",
+          "warning": "#F59E0B",
+          "info": "#38BDF8"
+        }
+      },
+      {
+        "name": "sidebar",
+        "kind": "solid",
+        "bg": "#0E1117",
+        "on_bg": "#F9FAFB",
+        "on_bg_muted": "#858D9D",
+        "roles": {
+          "active_item_bg": "#1C212B",
+          "active_item_border": "#F59E0B",
+          "active_item_text": "#FBBF24",
+          "badge_bg": "#241E11",
+          "badge_text": "#FDE68A"
+        }
+      },
+      {
+        "name": "header",
+        "kind": "glass",
+        "contrast_against": "#12151C",
+        "guarantee": "backdrop-blur-md bg-[#0E1117]/85 border-b border-[#232936]",
+        "on_bg": "#F9FAFB",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "card",
+        "kind": "solid",
+        "bg": "#131720",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "border": "#212838",
+          "border_highlight": "#343E56",
+          "metric_value": "#FFFFFF",
+          "metric_trend_pos": "#10B981",
+          "metric_trend_neg": "#EF4444"
+        }
+      },
+      {
+        "name": "card_elevated",
+        "kind": "solid",
+        "bg": "#181D28",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "table_row",
+        "kind": "solid",
+        "bg": "#131720",
+        "on_bg": "#F1F5F9",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "hover_bg": "#1A202C",
+          "border": "#1E2535"
+        }
+      },
+      {
+        "name": "badge_success",
+        "kind": "solid",
+        "bg": "#06281E",
+        "on_bg": "#34D399",
+        "on_bg_muted": "#10B981"
+      },
+      {
+        "name": "badge_warning",
+        "kind": "solid",
+        "bg": "#2E1C07",
+        "on_bg": "#FBBF24",
+        "on_bg_muted": "#F59E0B"
+      },
+      {
+        "name": "badge_danger",
+        "kind": "solid",
+        "bg": "#2D0D11",
+        "on_bg": "#F87171",
+        "on_bg_muted": "#EF4444"
+      },
+      {
+        "name": "badge_neutral",
+        "kind": "solid",
+        "bg": "#1F2430",
+        "on_bg": "#D1D5DB",
+        "on_bg_muted": "#9CA3AF"
+      },
+      {
+        "name": "badge_brand",
+        "kind": "solid",
+        "bg": "#2A200B",
+        "on_bg": "#FDE68A",
+        "on_bg_muted": "#F59E0B"
+      },
+      {
+        "name": "modal",
+        "kind": "solid",
+        "bg": "#11151D",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8"
+      },
+      {
+        "name": "hero_login",
+        "kind": "image",
+        "contrast_against": "#08090C",
+        "guarantee": "scrim: linear-gradient(135deg, rgba(11,13,17,0.92) 0%, rgba(11,13,17,0.70) 50%, rgba(11,13,17,0.95) 100%)",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#D1D5DB",
+        "roles": {
+          "accent_badge": "#FBBF24"
+        }
+      }
+    ],
+    "accent": "#F59E0B",
+    "on_accent": "#090A0E",
+    "brand_amber_glow": "rgba(245, 158, 11, 0.18)",
+    "semantic": {
+      "success": "#10B981",
+      "success_surface": "#06281E",
+      "danger": "#EF4444",
+      "danger_surface": "#2D0D11",
+      "warning": "#F59E0B",
+      "warning_surface": "#2E1C07",
+      "neutral": "#64748B",
+      "neutral_surface": "#1E293B"
+    }
+  },
+  "typography": {
+    "font_family_heading": "Outfit, sans-serif",
+    "font_family_body": "DM Sans, sans-serif",
+    "font_family_mono": "JetBrains Mono, monospace",
+    "scale_px": {
+      "display": 52,
+      "h1": 40,
+      "h2": 28,
+      "h3": 20,
+      "h4": 17,
+      "body": 15,
+      "caption": 13
+    },
+    "fontsource_imports": [
+      "@fontsource-variable/outfit",
+      "@fontsource-variable/dm-sans",
+      "@fontsource-variable/jetbrains-mono"
+    ]
+  },
+  "entry_surfaces": {
+    "/login": "branded split login — music studio visual & school showcase left, high-security ERP access panel right",
+    "/": "fixed sidebar ERP layout — quick stats header top, customizable multi-tab operational dashboard main",
+    "/alunos": "standard management layout — filter bar & actions top, paginated student table with quick-drawer right",
+    "/agenda": "synchronized calendar view — toolbar with day/week/month/list toggles top, multi-room color-coded time grid main",
+    "/financeiro": "executive financial suite — cashflow & revenue KPIs top, segmented tabs (mensalidades, despesas, fluxo, investimentos) with batch actions"
+  },
+  "layout_and_navigation": {
+    "structure": "Fixed left sidebar (width: 260px desktop, collapsible to 72px icon-only, off-canvas drawer on mobile) + Top sticky header (height: 64px) with breadcrumbs, quick search, branch selector, notification center, and user role switcher + Scrollable main content area (pt-4 px-4 sm:px-6 pb-12 max-w-[1600px] mx-auto)",
+    "sidebar_items": [
+      { "id": "dashboard", "label": "Visão Geral", "icon": "LayoutDashboard", "path": "/" },
+      { "id": "agenda", "label": "Agenda & Salas", "icon": "CalendarDays", "path": "/agenda" },
+      { "id": "alunos", "label": "Alunos & Matrículas", "icon": "GraduationCap", "path": "/alunos" },
+      { "id": "professores", "label": "Professores & Equipe", "icon": "Users", "path": "/professores" },
+      { "id": "aulas", "label": "Aulas & Recorrência", "icon": "Music4", "path": "/aulas" },
+      { "id": "faltas-reposicoes", "label": "Faltas & Reposições", "icon": "UserX", "path": "/faltas-reposicoes" },
+      { "id": "financeiro", "label": "Financeiro Completo", "icon": "DollarSign", "path": "/financeiro" },
+      { "id": "usuarios", "label": "Usuários & Perfis", "icon": "ShieldCheck", "path": "/usuarios" },
+      { "id": "auditoria", "label": "Logs de Auditoria", "icon": "FileSpreadsheet", "path": "/auditoria" },
+      { "id": "configuracoes", "label": "Configurações", "icon": "Settings", "path": "/configuracoes" }
+    ],
+    "role_permissions": [
+      { "role": "admin", "label": "Administrador Geral", "color": "amber", "desc": "Acesso irrestrito a todos os módulos, fechamentos e auditoria" },
+      { "role": "secretaria", "label": "Secretaria / Recepção", "color": "blue", "desc": "Matrículas, agendamentos, faltas, reposições e recebimentos parciais" },
+      { "role": "professor", "label": "Professor / Músico", "color": "emerald", "desc": "Visualização da própria agenda, chamada de alunos, diário de aula" },
+      { "role": "monitor", "label": "Monitor / Prática", "color": "violet", "desc": "Controle de salas de estudo, instrumentos e apoio de ensaios" },
+      { "role": "auxiliar", "label": "Auxiliar Administrativo", "color": "slate", "desc": "Lançamentos de despesas e conferência básica" }
+    ]
+  },
+  "modules_specification": {
+    "dashboard": {
+      "kpis": [
+        { "id": "active_students", "label": "Alunos Ativos", "target": "alunos", "format": "number", "badge": "+12 este mês" },
+        { "id": "month_revenue", "label": "Receita do Mês (Mensalidades)", "target": "financeiro", "format": "currency_br", "badge": "94.2% adimplência" },
+        { "id": "pending_installments", "label": "Mensalidades em Atraso", "target": "financeiro", "format": "currency_br", "alert": true },
+        { "id": "daily_lessons", "label": "Aulas Hoje", "target": "agenda", "format": "number", "badge": "8 salas ativas" },
+        { "id": "pending_makeup", "label": "Reposições Pendentes", "target": "faltas-reposicoes", "format": "number" },
+        { "id": "cash_flow_net", "label": "Fluxo de Caixa Líquido", "target": "financeiro", "format": "currency_br", "trend": "positive" }
+      ],
+      "charts": [
+        { "type": "AreaChart", "title": "Evolução Financeira (Receitas x Despesas)", "library": "recharts", "colors": ["#10B981", "#EF4444"] },
+        { "type": "BarChart", "title": "Ocupação por Instrumento / Modalidade", "library": "recharts", "colors": ["#F59E0B", "#6366F1", "#38BDF8", "#EC4899", "#84CC16"] },
+        { "type": "Radial/Donut", "title": "Status das Mensalidades (Pagas / Parciais / Pendentes)", "library": "recharts" }
+      ]
+    },
+    "agenda_calendar": {
+      "views": ["dia", "semana", "mes", "lista"],
+      "color_rules": {
+        "Piano / Teclado": "#F59E0B",
+        "Violão / Guitarra / Baixo": "#3B82F6",
+        "Bateria / Percussão": "#EC4899",
+        "Canto / Técnica Vocal": "#8B5CF6",
+        "Violino / Cordas": "#10B981",
+        "Teoria & Prática em Conjunto": "#06B6D4"
+      },
+      "status_indicators": {
+        "agendada": { "label": "Confirmada", "color": "#38BDF8" },
+        "realizada": { "label": "Realizada (Presença)", "color": "#10B981" },
+        "falta_justificada": { "label": "Falta Justificada (Gera Reposição)", "color": "#F59E0B" },
+        "falta_injustificada": { "label": "Falta Sem Reposição", "color": "#EF4444" },
+        "reposicao_agendada": { "label": "Reposição Agendada", "color": "#A855F7" }
+      },
+      "features": ["Filtro dinâmico por Professor, Sala, Instrumento e Status", "Visualização de conflito de salas em tempo real", "Arrastar e soltar ou clique rápido para registrar presença/falta"]
+    },
+    "financial_module": {
+      "currency": "BRL (R$ 1.250,00)",
+      "date_format": "DD/MM/YYYY",
+      "subtabs": [
+        { "id": "mensalidades", "label": "Mensalidades & Contratos", "description": "Controle de parcelas, emissão de recibos e registro de recebimentos parciais com histórico de baixas" },
+        { "id": "despesas", "label": "Contas a Pagar / Despesas", "description": "Despesas fixas (aluguel, luz), comissões de professores, manutenção de instrumentos" },
+        { "id": "fluxo-caixa", "label": "Fluxo de Caixa DRE", "description": "Entradas vs Saídas diárias, saldo acumulado e projeção dos próximos 30 dias" },
+        { "id": "investimentos", "label": "Investimentos & Equipamentos", "description": "Aquisição de instrumentos, isolamento acústico, amplificadores e amortização" }
+      ],
+      "partial_payments_flow": "Permite registrar múltiplos pagamentos por fatura (Ex: R$ 450 de uma mensalidade de R$ 900) calculando saldo remanescente, juros e multas de forma transparente."
+    },
+    "students_module": {
+      "features": ["Tabela com busca textual instantânea, filtros por professor, dia da aula, status e instrumento", "Drawer de Detalhes do Aluno com 4 abas: Dados Cadastrais & Contrato, Histórico de Aulas & Faltas, Financeiro/Mensalidades, e Anotações Pedagógicas"]
+    },
+    "lessons_and_recurrence": {
+      "features": ["Assistente de Criação de Turma/Aula Individual com gerador de recorrência (semanal, quinzenal)", "Previsão automática de conflitos de horário com o professor e a sala", "Cálculo do valor da hora/aula do professor"]
+    }
+  },
+  "visual_enhancers": {
+    "texture": "Subtle dark slate micro-grid pattern on page background (opacity 0.03)",
+    "borders": "1px crisp boundary using #1E2535 with hover state accent #333F56",
+    "accents": "Electric Amber (#F59E0B) focus rings and pill highlights",
+    "glows": "Subtle yellow-gold ambient backlight for active badges and priority cards",
+    "density": "High scanability, compact padding (p-3 to p-5 for tables and widgets), strictly no visual clutter"
+  },
+  "motion": {
+    "page_transitions": "Fade in with 0.15s ease-out",
+    "drawer_transitions": "Spring sliding drawer from right (duration 0.25s)",
+    "modal_transitions": "Scale up from 0.98 to 1.0 with backdrop blur reveal",
+    "hover_effects": "border-color shift and subtle translateY(-1px) on interactive cards"
+  },
+  "accessibility": {
+    "contrast_target": "WCAG AA (minimum 4.5:1 on all text surfaces)",
+    "focus_rings": "focus-visible:ring-2 focus-visible:ring-amber-500 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B0D11]",
+    "touch_targets": "Minimum 40px clickable areas on mobile tables and calendar items",
+    "keyboard_shortcuts": "Global search (Cmd/Ctrl + K), Novo Aluno (Shift + N), Nova Aula (Shift + A)"
+  },
+  "image_urls": {
+    "login_hero_bg": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtdXNpYyUyMHNjaG9vbCUyMGFjb3VzdGljJTIwc3R1ZGlvfGVufDB8fHx8MTc5MzM4NjIzMnww&ixlib=rb-4.1.0&q=85",
+    "studio_atmosphere": "https://images.pexels.com/photos/7520930/pexels-photo-7520930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "student_guitar_lesson": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMHN0dWRlbnQlMjBwaWFubyUyMGd1aXRhciUyMGxlc3NvbnxlbnwwfHx8fDE3OTMzODYyMzJ8MA&ixlib=rb-4.1.0&q=85",
+    "avatars": {
+      "teacher_1": "https://images.unsplash.com/photo-1730469344658-f442e279df9d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHxtdXNpYyUyMHRlYWNoZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3OTMzODYyMzN8MA&ixlib=rb-4.1.0&q=85",
+      "teacher_2": "https://images.unsplash.com/photo-1762160310126-d4d50e800fcf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxtdXNpYyUyMHRlYWNoZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3OTMzODYyMzJ8MA&ixlib=rb-4.1.0&q=85",
+      "teacher_3": "https://images.unsplash.com/photo-1525201548942-d8732f6617a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwyfHxtdXNpYyUyMHN0dWRlbnQlMjBwaWFubyUyMGd1aXRhciUyMGxlc3NvbnxlbnwwfHx8fDE3OTMzODYyMzJ8MA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement the complete FoneFine ERP with all required modules: Dashboard, Agenda/Calendário, Alunos, Professores/Equipe, Aulas & Recorrência, Faltas & Reposições, Financeiro (Mensalidades, Recebimentos Parciais, Despesas, Fluxo de Caixa DRE, Investimentos), Usuários & Permissões (Admin, Secretaria, Professor, Monitor, Auxiliar), Configurações e Auditoria.",
+    "Adopt the PT-BR language throughout the application with Brazilian real currency (R$) formatting and Brazilian phone/CPF/date masks.",
+    "Follow the requested Black & Gold/Amber aesthetic: Deep dark carbon foundation (#0B0D11 and #131720) with high-visibility amber/yellow (#F59E0B / #FBBF24) accents, emerald green (#10B981) for positive/received states, and crimson (#EF4444) for overdue/alert states.",
+    "Include sample seed data loaded with realistic music school data (teachers for Guitar, Piano, Drums, Vocals, Bass; students with active installments and partial receipts; synchronized weekly lesson schedules across Studios 1 to 4).",
+    "Ensure all interactive buttons, inputs, tabs, filter dropdowns, and modals include data-testid attributes for automated testing."
+  ]
+}
